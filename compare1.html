@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="Description" content="Enter your description here" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    td>img {
+      width: 100%;
+      height: 250px;
+      object-fit: contain;
+    }
+  </style>
+  <title>Compare</title>
+</head>
+
+<body>
+  <header class="text-gray-600 body-font w-full" style="background-color: white; position: fixed; height: auto;opacity: 100%; ">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <a href="index.html"><span class="ml-3 text-3xl" style="color: black"><strong>CLOUDHUT</strong></span></a>
+      </a>
+      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 hover:text-gray-900 text-xl" href="index.html"><strong>Home</strong></a>
+        <a class="mr-5 hover:text-gray-900 text-xl" href="services.html"><strong>Solutions</strong></a>
+        <a class="mr-5 hover:text-gray-900 text-xl" href="contactus.html"><strong>Contact Us</strong></a>
+        <a class="mr-5 hover:text-gray-900 text-xl" href="aboutus.html"><strong>About Us</strong></a>
+        <a class="mr-5 hover:text-gray-900 text-xl" href=""><strong>Support</strong></a>
+      </nav>
+      <button
+        class="inline-flex items-center bg-gray-100 border-0 py-1 px-4 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
+        href="signin.html">
+        <a href="signin.html" target="_blank">
+          <strong>Sign In</strong>
+        </a>
+      </button>
+    </div>
+  </header>
+  <br><br><br><br><br><br><br><br>
+  <div class="text-center mb-20">
+    <h1 class="sm:text-7xl text-2xl font-medium title-font text-gray-900 mb-4"><strong>Pricing of Different
+        Services</strong></h1>
+  </div>
+  <div class="container" style="background-color: whitesmoke;">
+    <div class="col-mid-9 mx-auto">
+      <table class="table">
+        <tr class="bg-primary"></tr>
+        <tr>
+          <th></th>
+          <td>
+            <img src="aws_logo.png" alt="" id="img1" />
+          </td>
+          <td>
+            <img src="azure_logo.png" alt="" id="img2" />
+          </td>
+          <td>
+            <img src="google_cloud_logo.png" alt="" id="img3" />
+          </td>
+          <td>
+            <img src="Oracle_logo.png" alt="" id="img4" />
+          </td>
+        </tr>
+        <th>Select the Service</th>
+        <th>
+          <select class="form-control" id="select1" onchange="item1(this.value)">
+            <option value="1">--Select the service--</option>
+          </select>
+        </th>
+        <th>
+          <select class="form-control" id="select2" onchange="item2(this.value)">
+            <option value="2">--Select the service--</option>
+          </select>
+        </th>
+        <th>
+          <select class="form-control" id="select3" onchange="item3(this.value)">
+            <option value="3">--Select the service--</option>
+          </select>
+        </th>
+        <th>
+          <select class="form-control" id="select4" onchange="item4(this.value)">
+            <option value="4">--Select the service--</option>
+          </select>
+        </th>
+        <tr></tr>
+        <tr>
+          <th>Product Description</th>
+          <td id="description1">---</td>
+          <td id="description2">---</td>
+          <td id="description3">---</td>
+          <td id="description4">---</td>
+
+        </tr>
+        <tr>
+          <th>Required Storage</th>
+          <td id="Storage1">---</td>
+          <td id="Storage2">---</td>
+          <td id="Storage3">---</td>
+          <td id="Storage4">---</td>
+        </tr>
+        <tr>
+          <th>BaseIO-Rate</th>
+          <td id="Base_ioRate1">--- per-second</td>
+          <td id="Base_ioRate2">--- per-second</td>
+          <td id="Base_ioRate3">--- per-second</td>
+          <td id="Base_ioRate4">--- per-second</td>
+        </tr>
+        <tr>
+          <th>PeakIO-Rate</th>
+          <td id="Peak_ioRate1">--- per-second</td>
+          <td id="Peak_ioRate2">--- per-second</td>
+          <td id="Peak_ioRate3">--- per-second</td>
+          <td id="Peak_ioRate4">--- per-second</td>
+
+        </tr>
+        <tr>
+          <th>Estimate price</th>
+          <td id="Estimate_price1">---</td>
+          <td id="Estimate_price2">---</td>
+          <td id="Estimate_price3">---</td>
+          <td id="Estimate_price4">---</td>
+        </tr>
+        <tr>
+          <th>Payments</th>
+          <td id="pay1"><a href="https://aws.amazon.com/rds/aurora/" target="_blank">Pay</a></td>
+          <td id="pay2"><a href="https://azure.microsoft.com/en-in/products/storage/blobs/#overview"
+              target="_blank">Pay</a>
+          </td>
+          <td id="pay3"><a href="https://cloud.google.com/storage" target="_blank">Pay</a></td>
+          <td id="pay4"><a href="https://www.oracle.com/in/autonomous-database/" target="_blank">Pay</a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+  <script src="data1.js"></script>
+
+  <script>
+    for (var i = 0; i <= 3; i++) {
+      document.getElementById("select1").innerHTML += `
+                 <option value="${i}">${product1[i].title}</option>
+                 `;
+
+      document.getElementById("select2").innerHTML += `
+                     <option value="${i}">${product2[i].title}</option>
+                     `;
+
+      document.getElementById("select3").innerHTML += `
+                     <option value="${i}">${product3[i].title}</option>
+                     `;
+      document.getElementById("select4").innerHTML += `
+                     <option value="${i}">${product4[i].title}</option>
+                     `;
+    }
+
+    function item1(a) {
+
+      document.getElementById("description1").innerHTML =
+        product1[a].description;
+      document.getElementById("Storage1").innerHTML = product1[a].Storage;
+      document.getElementById("Base_ioRate1").innerHTML = product1[a].Base_ioRate;
+      document.getElementById("Peak_ioRate1").innerHTML = product1[a].Peak_ioRate;
+      document.getElementById("Estimate_price1").innerHTML = product1[a].Estimate_price;
+    }
+    function item2(b) {
+
+      document.getElementById("description2").innerHTML =
+        product2[b].description;
+      document.getElementById("Storage2").innerHTML = product2[b].Storage;
+      document.getElementById("Base_ioRate2").innerHTML = product2[b].Base_ioRate;
+      document.getElementById("Peak_ioRate2").innerHTML = product2[b].Peak_ioRate;
+      document.getElementById("Estimate_price2").innerHTML = product2[b].Estimate_price;
+    }
+    function item3(c) {
+
+      document.getElementById("description3").innerHTML =
+        product3[c].description;
+      document.getElementById("Storage3").innerHTML = product3[c].Storage;
+      document.getElementById("Base_ioRate3").innerHTML = product3[c].Base_ioRate;
+      document.getElementById("Peak_ioRate3").innerHTML = product3[c].Peak_ioRate;
+      document.getElementById("Estimate_price3").innerHTML = product3[c].Estimate_price;
+    }
+    function item4(c) {
+
+      document.getElementById("description4").innerHTML =
+        product4[c].description;
+      document.getElementById("Storage4").innerHTML = product4[c].Storage;
+      document.getElementById("Base_ioRate4").innerHTML = product4[c].Base_ioRate;
+      document.getElementById("Peak_ioRate4").innerHTML = product4[c].Peak_ioRate;
+      document.getElementById("Estimate_price4").innerHTML = product4[c].Estimate_price;
+    }
+  </script>
+</body>
+
+</html>

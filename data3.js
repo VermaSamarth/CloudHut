@@ -1,0 +1,88 @@
+var product1=[{
+    "id" : "1",
+    "title" : "Amazon Cognito",
+    "description" : "Amazon Cognito lets you easily add user sign-up and authentication to your mobile and web apps. Amazon Cognito also enables you to authenticate users through an external identity provider and provides temporary security credentials to access your app's backend resources in AWS or any service behind Amazon API Gateway.",
+    "Number_Of_Accounts" : "5",
+    "Number_of_security_check" : "Avg(10)",
+    "Estimate_price" : "$ 139",
+},{
+    "id" : "2",
+    "title" : "Amazon Detective",
+    "description" : "Amazon Detective simplifies the investigative process and helps security teams conduct faster and more effective investigations. With the Amazon Detective prebuilt data aggregations, summaries, and context, you can quickly analyze and determine the nature and extent of possible security issues.",
+    "Number_Of_Accounts" : "5",
+    "Number_of_security_check" : "Avg(10)",   
+    "Estimate_price" : "$ 145",
+},{
+    "id" : "3",
+    "title" : "Amazon GuardDuty",
+    "description" : "Amazon GuardDuty is a threat detection service that continuously monitors your AWS accounts and workloads for malicious activity and delivers detailed security findings for visibility and remediation.",
+    "Number_Of_Accounts" : "5",
+    "Number_of_security_check" : "Avg(10)",   
+    "Estimate_price" : "$ 149",
+}]
+var product2=[{
+    "id" : "0",
+    "title" : "Azure Active Directory B2C",
+    "description" : "Azure Active Directory B2C (Azure AD B2C) is an identity management service that enables custom control of how your customers sign up, sign in, and manage their profiles when using your iOS, Android, . NET, single-page (SPA), and other applications.",
+    "Number_Of_Accounts" : "5",
+    "Number_of_security_check" : "Avg(10)",   
+    "Estimate_price" : "$120",
+},{
+    "id" : "1",
+    "title" : "Azure Bastion",
+    "description" : "Azure Bastion is a fully managed service that provides more secure and seamless Remote Desktop Protocol (RDP) and Secure Shell Protocol (SSH) access to virtual machines (VMs) without any exposure through public IP addresses.",
+    "Number_Of_Accounts" : "5",
+    "Number_of_security_check" : "Avg(10)",    
+    "Estimate_price" : "$ 124",
+},{
+    "id" : "2",
+    "title" : "Azure Firewall",
+    "description" : "Azure Firewall is a cloud-native and intelligent network firewall security service that provides the best of breed threat protection for your cloud workloads running in Azure. It's a fully stateful, firewall as a service with built-in high availability and unrestricted cloud scalability",
+    "Number_Of_Accounts" : "5",
+    "Number_of_security_check" : "Avg(10)",    
+    "Estimate_price" : "$ 129",
+}]
+var product3=[{
+    "id" : "1",
+    "title" : "Enforcement of data location",
+    "description" : "Implement system and application access controls that ensure only authorized users access cloud data and applications. A Cloud Access Security Broker (CASB) can be used to enforce access controls. Device access control — Block access when a personal, unauthorized device tries to access cloud data.",
+    "Number_Of_Accounts" : "5",
+    "Number_of_security_check" : "Avg(10)",    
+    "Estimate_price" : "$ 132",
+},{
+    "id" : "2",
+    "title" : "Limit personnel access",
+    "description" : "When you create a bucket, you should decide whether you want to apply permissions using uniform or fine-grained access.",
+   "Number_Of_Accounts" : "5",
+    "Number_of_security_check" : "Avg(10)",    
+    "Estimate_price" : "$ 123",
+},{
+    "id" : "3",
+    "title" : "Built-in security controls",
+    "description" : "GCP implements comprehensive security measures to ensure and maintain the security of its infrastructure, including automated encryption, secure data disposal, secure Internet communication, and secure service deployment.",
+    "Number_Of_Accounts" : "5",
+    "Number_of_security_check" : "Avg(10)",
+    "Estimate_price" : "$ 136",
+}]
+var product4=[{
+    "id" : "1",
+    "title" : "Object security ",
+    "description" : "Object security provides access to dimensional objects. You must set object security before other users can access them. Object security is implemented using SQL GRANT and REVOKE",
+    "Number_Of_Accounts" : "5",
+    "Number_of_security_check" : "Avg(10)",   
+    "Estimate_price" : "$ 139",
+},{
+    "id" : "2",
+    "title" : "Data security",
+    "description" : "Oracle Database 19c provides multi-layered security including controls to evaluate risks, prevent unauthorized data disclosure, detect and report on database activities and enforce data access controls in the database with data-driven security.",
+    "Number_Of_Accounts" : "5",
+    "Number_of_security_check" : "Avg(10)",    
+    "Estimate_price" : "$ 145",
+},{
+    "id" : "3",
+    "title" : "Oracle inspector",
+    "description" : "Oracle Inspector provides government field staff the ability to enforce code compliance using productivity tools to perform and report on inspections from a mobile device",
+    "Number_Of_Accounts" : "5",
+    "Number_of_security_check" : "Avg(10)",    
+    "Estimate_price" : "$ 152",
+}]

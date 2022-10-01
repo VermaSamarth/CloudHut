@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>CLOUDHUT.com</title>
+</head>
+
+<body>
+    <header class="text-gray-600 body-font w-full" style="background-color:white; position: fixed ;height: 70px;">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center ">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <a href="index.html"><img src="cloudhut_logo1.png" alt="" width="60"></a>
+                <a href="index.html"><span class="ml-3 text-3xl" style="color: black;"><strong>CLOUDHUT</strong></span></a>
+          </a>
+          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-gray-900 text-xl" href="index.html"><strong>Home</strong></a>
+            <a class="mr-5 hover:text-gray-900 text-xl" href="services.html"><strong>Solutions</strong></a>
+            <a class="mr-5 hover:text-gray-900 text-xl" href="contactus.html"><strong>Contact Us</strong></a>
+            <a class="mr-5 hover:text-gray-900 text-xl" href="aboutus.html"><strong>About Us</strong></a>
+            <a class="mr-5 hover:text-gray-900 text-xl" href="support.html"><strong>Learning</strong></a>
+          </nav>
+          <button
+            class="inline-flex items-center bg-green-400 border-0 py-1 px-4 focus:outline-none hover:bg-green-500 rounded text-medium mt-4 md:mt-0 text-gray-700"
+            href="signin.html">
+            <a href="signin.html" target="_blank">
+              <strong>Sign In</strong>
+              </svg>
+            </a>
+          </button>
+        </div>
+      </header>
+    <hr>
+    <br><br>
+<div class="flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+    <div class="w-full max-w-md space-y-8">
+      <div>
+        <img class="mx-auto h-12 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="Your Company">
+        <h2 class="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">Log in to your account</h2>
+        
+        </p>
+      </div>
+      <form class="mt-8 space-y-6" action="#" method="POST">
+        <input type="hidden" name="remember" value="true">
+        <div class="-space-y-px rounded-md shadow-sm">
+          <div>
+            <label for="email-address" class="sr-only">Email address</label>
+            <input id="email-address" name="email" type="email" autocomplete="email" required class="relative block w-full appearance-none rounded-none rounded-t-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm" placeholder="Email address">
+          </div>
+          <div>
+            <label for="password" class="sr-only">Password</label>
+            <input id="password" name="password" type="password" autocomplete="current-password" required class="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm" placeholder="Password">
+          </div>
+        </div>
+  
+        <div class="flex items-center justify-between">
+          <div class="flex items-center">
+            <input id="remember-me" name="remember-me" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+            <label for="remember-me" class="ml-2 block text-sm text-gray-900">Remember me</label>
+          </div>
+  
+          <div class="text-sm">
+            <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">Forgot your password?</a>
+          </div>
+        </div>
+  
+        <div>
+          <button type="submit" class="group relative flex w-full justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+            <a href="success1.html">
+                <span class="absolute inset-y-0 left-0 flex items-center pl-3">
+                    <!-- Heroicon name: mini/lock-closed -->
+                    <svg class="h-5 w-5 text-indigo-500 group-hover:text-indigo-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd" />
+                    </svg>
+                  </span>
+                  <strong>Log In</strong>
+                </a>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  
+</body>
+
+</html>
